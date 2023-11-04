@@ -48,11 +48,13 @@ parts:
 
   app-2:
     source: https://github.com/pushkarnk/versioning-example-app-2
+    source-depth: 1
     plugin: make
 
   app-3:
     source: https://github.com/pushkarnk/versioning-example-app-3
     source-type: git
+    source-depth: 1
     plugin: dump
     organize:
       app-3: usr/bin/
