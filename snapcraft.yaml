@@ -41,6 +41,8 @@ parts:
   app-1:
     source: https://github.com/pushkarnk/versioning-example-app-1
     source-type: git
+    source-tag: '0.1.4'
+    source-depth: 1
     plugin: make
     override-pull: |
       craftctl default
