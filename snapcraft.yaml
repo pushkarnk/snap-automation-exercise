@@ -50,6 +50,7 @@ parts:
 
   app-2:
     source: https://github.com/pushkarnk/versioning-example-app-2
+    source-type: git
     source-tag: '0.1.4'
     source-depth: 1
     plugin: make
